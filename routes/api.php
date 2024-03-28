@@ -35,6 +35,5 @@ Route::get('/series', function () {
 });
 
 Route::apiResource('/series', SeriesController::class); //Aqui é uma função que cria todas as rotas padrão de uma vez só
-
 // Route::get('/series', [SeriesController::class, 'index']);
 // Route::post('/series', [SeriesController::class, 'store']);
